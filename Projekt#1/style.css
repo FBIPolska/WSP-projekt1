@@ -1,0 +1,150 @@
+* 
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: "Lato" ;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    
+  }
+
+header
+{
+    background-color: #7a7e7f;
+    color: black;
+    position: sticky;
+    padding: 20px ;
+}
+
+.header__content 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.header__info 
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.header__logo 
+{
+    height: 30px;
+    width: 30px;
+}
+
+.header__title 
+{
+    font-size: 18px;
+    font-weight: 700;
+}
+  
+.header__subtitle 
+{
+    font-size: 14px;
+    
+}
+
+body
+{
+    background-color: #8ed6f0;
+}
+
+
+.menu
+{
+
+width: 150px;    
+
+}
+
+.menu-top
+{
+    background-color: #00b86d;
+    display: block;
+}
+
+.menu ul li:hover
+{
+    background-color: #036d69;
+}
+
+.menu ul
+{
+    list-style-type:none;
+    background-color: #06a7a0;
+    color: black;
+    display: block;
+    padding: 8px;
+    font-weight: bold;
+    line-height:200%;
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+}
+
+.menu ul li a
+{
+    text-decoration:none;
+    color:black;   
+    display: block;
+}
+
+.right
+{
+flex: 0.70;
+}
+
+.left
+{
+    flex: 0.30;
+}
+
+.border
+{
+
+border: 2px solid #085f96;
+border-radius: 6px;
+
+}
+
+.drobnym_drukiem
+{
+  font-size: 9px;
+  color: #707070;
+  opacity: 0.7;
+}
+
+.image
+{
+  width: 700px;
+  height: auto;
+  
+}
+
+.tytuł
+{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    
+  }
+
+
