@@ -33,20 +33,11 @@ header
     justify-content: flex-start;
     gap: 10px;
 }
-  
-.header__icons 
-{
-    
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 10px;
-}
 
 .header__logo 
 {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
 }
 
 .header__title 
@@ -66,3 +57,61 @@ body
     background-color: #8ed6f0;
 }
 
+
+.menu
+{
+
+width: 150px;    
+
+}
+
+.menu-top
+{
+    background-color: #00b86d;
+    display: block;
+}
+
+.menu ul li:hover
+{
+    background-color: #036d69;
+}
+
+.menu ul
+{
+    list-style-type:none;
+    background-color: #06a7a0;
+    color: black;
+    display: block;
+    padding: 8px;
+    font-weight: bold;
+    line-height:200%;
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+}
+
+.menu ul li a
+{
+    text-decoration:none;
+    color:black;   
+    display: block;
+}
+
+.right
+{
+flex: 0.70;
+}
+
+.left
+{
+    flex: 0.30;
+}
+
+.border
+{
+
+border: 1px solid #262c29;
+
+}
